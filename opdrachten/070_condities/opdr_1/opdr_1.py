@@ -10,3 +10,9 @@ my_list = []
 
 #for loop
 #if statement
+
+for i in range(11):
+    if i >= 5:
+        my_list.append(i)
+
+print(my_list)
