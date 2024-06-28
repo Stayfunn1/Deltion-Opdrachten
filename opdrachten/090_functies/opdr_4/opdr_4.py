@@ -4,9 +4,13 @@
 
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
+    for i in lijst_met_namen:
+        try:
+            namen = f"{i["voornaam"]} {i["tussenvoegsel"]} {i["achternaam"]}"
+            namen = namen.replace("  ", " ")
+            print(namen)
+        except Exception as e:
+            print(e)
 
 
 namen = [

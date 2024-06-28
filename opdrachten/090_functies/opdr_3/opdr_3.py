@@ -1,17 +1,15 @@
 # Opdracht 1 functies
 # Naam student:
 # Groep:
-
+import math
 
 def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    volume = m * m * m
+    return f"Inhoud kubus:\t{round(volume, 2)}"
 
 def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    volume = 4/3 * math.pi * r ** 3
+    return f"Inhoud bol:\t{round(volume, 2)}"
 
 zijde = 5
 radius = 4
